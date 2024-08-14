@@ -3,28 +3,28 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: white; /* Light Blue Background */
+    background-color: #ADD8E6; /* Light Blue Background */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 header {
-    background-color: #333; 
-    color: #ffffff;
+    background-color: #333; /* Dark Gray Header */
+    color: #ffffff; /* White Text */
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    color: #333;
+    color: #ffffff; /* Ensuring header text is white */
 }
 
 .references-box {
-    background-color: #7a7a7a; /* Dark Blue Box */
-    color: #fff; /* White Text */
-    border: 1px solid #00008B;
+    background-color: #00008B; /* Dark Blue Box */
+    color: #ffffff; /* White Text */
+    border: none; /* Removed border for a cleaner look */
     padding: 20px;
     margin: 20px;
     border-radius: 8px;
@@ -32,6 +32,7 @@ header h1 {
 
 .references-box h2 {
     margin-top: 0;
+    color: #FFD700; /* Gold color for the heading to make it stand out */
 }
 
 .references-box ul {
@@ -53,7 +54,7 @@ header h1 {
 }
 
 footer {
-    background-color: #333;
+    background-color: #333; /* Dark Gray Footer */
     color: white;
     text-align: center;
     padding: 20px;
