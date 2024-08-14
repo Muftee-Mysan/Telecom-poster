@@ -1,16 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #ADD8E6; /* Light Blue Background */
+    background-color: #E6F7FF; /* Softer Light Blue Background */
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 header {
-    background-color: #333; /* Dark Gray Header */
+    background-color: #00509E; /* Elegant Dark Blue Header */
     color: #ffffff; /* White Text */
     padding: 20px;
     text-align: center;
@@ -18,45 +18,59 @@ header {
 
 header h1 {
     margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
     color: #ffffff; /* Ensuring header text is white */
 }
 
 .references-box {
-    background-color: #00008B; /* Dark Blue Box */
+    background-color: #1E3A8A; /* Richer Dark Blue Box */
     color: #ffffff; /* White Text */
-    border: none; /* Removed border for a cleaner look */
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 800px; /* Constrain width for better readability */
+    border-radius: 12px; /* Smoother rounded corners */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .references-box h2 {
     margin-top: 0;
-    color: #FFD700; /* Gold color for the heading to make it stand out */
+    font-size: 1.8em;
+    color: #FFC107; /* Gold color for the heading */
+    border-bottom: 2px solid #FFC107; /* Gold underline */
+    padding-bottom: 10px;
 }
 
 .references-box ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .references-box ul li {
-    margin-bottom: 10px;
+    margin-bottom: 15px; /* Increased spacing for clarity */
 }
 
 .references-box ul li a {
-    color: #FFD700; /* Gold Links */
+    color: #FFC107; /* Gold Links */
     text-decoration: none;
+    font-weight: 500; /* Slightly bolder for readability */
 }
 
 .references-box ul li a:hover {
     text-decoration: underline;
+    color: #FFD54F; /* Lighter gold on hover */
 }
 
 footer {
-    background-color: #333; /* Dark Gray Footer */
+    background-color: #00509E; /* Matching Dark Blue Footer */
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: auto; /* Pushes footer to bottom */
+    margin-top: auto; /* Keeps footer at the bottom */
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
 }
